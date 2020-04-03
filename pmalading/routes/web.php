@@ -11,8 +11,12 @@
 |
 */
 
-
-Route::get('/','AboutPagesController@home');
+Route::get('/','AboutPagesController@home')->middleware('verified');
+Route::get('/home','AboutPagesController@home');
 Route::get('/about','AboutPagesController@about');
 Route::get('/contactMe','AboutPagesController@contactMe');
+
+
+Auth::routes(['verify' => true]);
+
 
