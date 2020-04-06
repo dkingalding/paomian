@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="461175b7-7b7a-421c-91a4-ac029b07dfb4" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmalading/resources/views/products/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/duobaodao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/duobaodao.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pmalading/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/pmalading/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pmalading/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/pmalading/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pmalading/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/pmalading/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pmalading/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/pmalading/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pmalading/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pmalading/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pmalading/resources/views/about_pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/pmalading/resources/views/about_pages/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pmalading/app/Admin/Controllers/usedNameController.php" beforeDir="false" afterPath="$PROJECT_DIR$/pmalading/app/Admin/Controllers/usedNameController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pmalading/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pmalading/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pmalading/resources/views/layouts/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/pmalading/resources/views/layouts/_footer.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pmalading/resources/views/layouts/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/pmalading/resources/views/layouts/_header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pmalading/resources/views/layouts/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/pmalading/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pmalading/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/pmalading/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pmalading/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/pmalading/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,15 +19,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/pmalading/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.39158812">
+    <splitter split-orientation="horizontal" split-proportion="0.6893204">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pmalading/app/Http/Controllers/AboutPagesController.php">
               <provider selected="true" editor-type-id="text-editor">
@@ -38,19 +39,31 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pmalading/app/Http/Controllers/Auth/LoginController.php">
+            <entry file="file://$PROJECT_DIR$/pmalading/app/Models/Product.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="494">
-                  <caret line="37" selection-start-line="37" selection-end-line="37" />
+                <state relative-caret-position="330">
+                  <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pmalading/app/Http/Controllers/Auth/ConfirmPasswordController.php">
+            <entry file="file://$PROJECT_DIR$/pmalading/app/Http/Controllers/ProductsController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="132">
-                  <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+                <state relative-caret-position="301">
+                  <caret line="24" selection-start-line="24" selection-end-line="24" />
+                  <folding>
+                    <element signature="e#40#68#0#PHP" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pmalading/resources/sass/app.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1716">
+                  <caret line="78" column="26" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
@@ -58,20 +71,17 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pmalading/resources/views/layouts/app.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="506">
-                  <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+                <state relative-caret-position="330">
+                  <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pmalading/app/Providers/AppServiceProvider.php">
+            <entry file="file://$PROJECT_DIR$/pmalading/routes/web.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="506">
-                  <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-                  <folding>
-                    <element signature="e#33#72#0#PHP" expanded="true" />
-                  </folding>
+                <state relative-caret-position="308">
+                  <caret line="23" selection-start-line="23" selection-end-line="23" />
                 </state>
               </provider>
             </entry>
@@ -79,57 +89,57 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pmalading/routes/web.php">
+            <entry file="file://$PROJECT_DIR$/pmalading/app/Admin/routes.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="286">
-                  <caret line="22" selection-start-line="22" selection-end-line="22" />
+                <state relative-caret-position="264">
+                  <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/pmalading/app/User.php">
+            <entry file="file://$PROJECT_DIR$/pmalading/resources/views/products/index.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="208">
-                  <caret line="20" selection-start-line="20" selection-end-line="20" />
-                  <folding>
-                    <element signature="e#23#69#0#PHP" expanded="true" />
-                  </folding>
+                <state relative-caret-position="173">
+                  <caret line="38" column="74" selection-start-line="38" selection-start-column="74" selection-end-line="38" selection-end-column="74" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pmalading/resources/views/about_pages/home.blade.php">
+            <entry file="file://$PROJECT_DIR$/pmalading/app/Admin/Controllers/usedNameController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="132">
-                  <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+                <state relative-caret-position="2728">
+                  <caret line="133" selection-start-line="133" selection-end-line="133" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pmalading/resources/views/layouts/_header.blade.php">
+            <entry file="file://$PROJECT_DIR$/pmalading/app/Models/theprice.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="638">
-                  <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-                  <folding>
-                    <element signature="n#style#0;n#form#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                  </folding>
+                <state relative-caret-position="352">
+                  <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pmalading/resources/views/layouts/_footer.blade.php">
+            <entry file="file://$PROJECT_DIR$/pmalading/app/Models/goods.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="66">
-                  <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
-                  <folding>
-                    <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
-                  </folding>
+                <state relative-caret-position="506">
+                  <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pmalading/app/Models/shopName.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="198">
+                  <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
@@ -142,6 +152,8 @@
     <findStrings>
       <find>redirectTo</find>
       <find>E-Mail Address</find>
+      <find>product-content</find>
+      <find>container</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -156,29 +168,137 @@
         <option value="$PROJECT_DIR$/pmalading/bootstrap/helpers.php" />
         <option value="$PROJECT_DIR$/pmalading/composer.json" />
         <option value="$PROJECT_DIR$/pmalading/webpack.mix.js" />
-        <option value="$PROJECT_DIR$/pmalading/resources/sass/app.scss" />
-        <option value="$PROJECT_DIR$/pmalading/resources/views/layouts/_footer.blade.php" />
         <option value="$PROJECT_DIR$/pmalading/.gitignore" />
         <option value="$PROJECT_DIR$/pmalading/resources/views/about_pages/home.blade.php" />
-        <option value="$PROJECT_DIR$/pmalading/resources/views/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/pmalading/resources/views/layouts/_header.blade.php" />
         <option value="$PROJECT_DIR$/pmalading/resources/views/auth/login.blade.php" />
         <option value="$PROJECT_DIR$/pmalading/resources/views/auth/register.blade.php" />
         <option value="$PROJECT_DIR$/pmalading/resources/views/auth/passwords/email.blade.php" />
         <option value="$PROJECT_DIR$/pmalading/resources/views/auth/passwords/reset.blade.php" />
         <option value="$PROJECT_DIR$/pmalading/app/Http/Controllers/Auth/LoginController.php" />
-        <option value="$PROJECT_DIR$/pmalading/.env" />
         <option value="$PROJECT_DIR$/pmalading/app/Providers/AppServiceProvider.php" />
-        <option value="$PROJECT_DIR$/pmalading/routes/web.php" />
         <option value="$PROJECT_DIR$/pmalading/app/User.php" />
+        <option value="$PROJECT_DIR$/pmalading/config/admin.php" />
+        <option value="$PROJECT_DIR$/pmalading/config/app.php" />
+        <option value="$PROJECT_DIR$/pmalading/app/Admin/Controllers/UsersController.php" />
+        <option value="$PROJECT_DIR$/pmalading/config/filesystems.php" />
+        <option value="$PROJECT_DIR$/pmalading/.env" />
+        <option value="$PROJECT_DIR$/pmalading/app/Models/shopName.php" />
+        <option value="$PROJECT_DIR$/pmalading/app/Admin/routes.php" />
+        <option value="$PROJECT_DIR$/pmalading/app/Models/goods.php" />
+        <option value="$PROJECT_DIR$/pmalading/app/Models/theprice.php" />
+        <option value="$PROJECT_DIR$/pmalading/app/Admin/Controllers/usedNameController.php" />
+        <option value="$PROJECT_DIR$/pmalading/routes/web.php" />
+        <option value="$PROJECT_DIR$/pmalading/app/Models/Product.php" />
+        <option value="$PROJECT_DIR$/pmalading/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/pmalading/resources/views/layouts/_header.blade.php" />
+        <option value="$PROJECT_DIR$/pmalading/resources/views/layouts/_footer.blade.php" />
+        <option value="$PROJECT_DIR$/pmalading/resources/views/products/index.blade.php" />
+        <option value="$PROJECT_DIR$/pmalading/resources/sass/app.scss" />
+        <option value="$PROJECT_DIR$/pmalading/app/Http/Controllers/ProductsController.php" />
       </list>
     </option>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/pmalading/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/composer" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/scrivo/highlight.php" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/encore/laravel-admin" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/pmalading/vendor/phpoption/phpoption" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2128" />
-    <option name="y" value="298" />
-    <option name="width" value="884" />
-    <option name="height" value="840" />
+    <option name="x" value="2326" />
+    <option name="y" value="299" />
+    <option name="width" value="1156" />
+    <option name="height" value="672" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -186,7 +306,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,13 +329,50 @@
               <item name="duobaodao" type="462c0819:PsiDirectoryNode" />
               <item name="pmalading" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Providers" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="duobaodao" type="b2602c69:ProjectViewProjectNode" />
               <item name="duobaodao" type="462c0819:PsiDirectoryNode" />
               <item name="pmalading" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="duobaodao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="duobaodao" type="462c0819:PsiDirectoryNode" />
+              <item name="pmalading" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="duobaodao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="duobaodao" type="462c0819:PsiDirectoryNode" />
+              <item name="pmalading" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="duobaodao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="duobaodao" type="462c0819:PsiDirectoryNode" />
+              <item name="pmalading" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="duobaodao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="duobaodao" type="462c0819:PsiDirectoryNode" />
+              <item name="pmalading" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="duobaodao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="duobaodao" type="462c0819:PsiDirectoryNode" />
+              <item name="pmalading" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="duobaodao" type="b2602c69:ProjectViewProjectNode" />
@@ -228,6 +384,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,25 +417,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585463521456</updated>
-      <workItem from="1585463522588" duration="30143000" />
+      <workItem from="1585463522588" duration="40618000" />
+      <workItem from="1586075694869" duration="7082000" />
+      <workItem from="1586087493709" duration="6663000" />
+      <workItem from="1586173823365" duration="607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30143000" />
+    <option name="totallyTimeSpent" value="54970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26492536" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1380597" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="TypeScript" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.20386267" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -286,10 +441,16 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="TypeScript" order="10" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2027897" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -343,13 +504,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pmalading/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pmalading/resources/views/welcome.blade.php" />
     <entry file="file://$PROJECT_DIR$/pmalading/app/Http/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -390,27 +545,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pmalading/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pmalading/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pmalading/resources/sass/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pmalading/app/Http/Controllers/HomeController.php" />
     <entry file="file://$PROJECT_DIR$/pmalading/bootstrap/helpers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -425,42 +560,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pmalading/resources/views/layouts/_footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pmalading/resources/views/about_pages/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pmalading/resources/views/layouts/_header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#form#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pmalading/app/Http/Controllers/Auth/ConfirmPasswordController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pmalading/resources/views/auth/register.blade.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -490,17 +591,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pmalading/app/Http/Controllers/Auth/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pmalading/database/migrations/2014_10_12_000000_create_users_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmalading/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding>
+            <element signature="e#23#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmalading/config/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2420">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmalading/app/Admin/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmalading/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="82" column="22" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmalading/resources/views/about_pages/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmalading/app/Http/Controllers/Auth/ConfirmPasswordController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -514,20 +653,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pmalading/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/pmalading/app/Http/Controllers/Auth/LoginController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="494">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pmalading/app/User.php">
+    <entry file="file://$PROJECT_DIR$/pmalading/config/database.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmalading/config/hashing.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmalading/public/upload/images/IMG_6913.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmalading/public/upload/images/IMG_6583.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmalading/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#23#69#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmalading/app/Admin/Controllers/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="89" column="7" lean-forward="true" selection-start-line="89" selection-start-column="7" selection-end-line="89" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmalading/config/filesystems.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmalading/resources/views/layouts/_footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmalading/resources/views/layouts/_header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -538,17 +714,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pmalading/.env">
+    <entry file="file://$PROJECT_DIR$/pmalading/app/Models/Product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="330">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmalading/resources/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1716">
+          <caret line="78" column="26" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmalading/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmalading/app/Http/Controllers/ProductsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmalading/app/Admin/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmalading/app/Admin/Controllers/usedNameController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2728">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmalading/app/Models/theprice.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmalading/app/Models/goods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmalading/app/Models/shopName.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmalading/resources/views/products/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="38" column="74" selection-start-line="38" selection-start-column="74" selection-end-line="38" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pmalading/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="330">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
         </state>
       </provider>
     </entry>

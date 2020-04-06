@@ -129,8 +129,8 @@ class usedNameController extends AdminController
 
             // 去掉查看
             $actions->disableView();
-            $actions->add(new offer());
-            $actions->add(new status);
+//            $actions->add(new offer());
+//            $actions->add(new status);
 
         });
         // 去掉批量操作
@@ -152,80 +152,80 @@ class usedNameController extends AdminController
     //     return $show;
     // }
 
-    public function show($id, Content $content)
-    {
-        // print_r(time()*1000);
-        $uuu = $id;
-        return $content->header('商品')
-            ->description('详情')
-            ->body(Admin::show(usedName::findOrFail($id), function (Show $show) {
-
-                $show->productName('ID');
-                $show->goods('可拍卖', function ($goods) {
-                    $UU = time() * 1000;
-                    $goods->resource('/admin/goods');
-                    $goods->model()->where('endTime', '>', $UU);
-                    $goods->id();
-                    // $goods->content()->limit(10);
-                    // $goods->endTime();
-                    $goods->endTime()->display(function ($endTime) {
-                        $endTime = $endTime / 1000;
-                        // return $endTime;
-                        return date("Y-m-d h:i:sa", $endTime);
-                    });
-                    // $goods->updated_at();
-                    $goods->disableExport();
-
-                    $goods->disableCreateButton();
-                    $goods->actions(function ($actions) {
-
-                        // 去掉删除
-                        $actions->disableDelete();
-
-                        // // 去掉编辑
-                        $actions->disableEdit();
-
-                        // 去掉查看
-                        $actions->disableView();
-                        //添加订单
-
-                    });
-                    $goods->filter(function ($filter) {
-                        // $filter->gt('endTime', );
-                        $filter->disableIdFilter();
-
-                    });
-                    $goods->disableBatchActions();
-                });
-                $show->panel()
-                    ->tools(function ($tools) {
-                        $tools->disableEdit();
-                        $tools->disableList();
-                        $tools->disableDelete();
-
-                    });
-
-            }));
-    }
-    /**
-     * Make a form builder.
-     *
-     * @return Form
-     */
-    // protected function form()
-    // {
-    //     $form = new Form(new usedName);
-
-    //     $form->display('id', 'ID');
-
-
-    //     return $form;
-    // }
-    public function addoffer($id, content $content)
-    {
-        return $content
-            ->header("添加订单")
-            ->body(goods::form_edit()->edit($id));
-    }
+//    public function show($id, Content $content)
+//    {
+//        // print_r(time()*1000);
+//        $uuu = $id;
+//        return $content->header('商品')
+//            ->description('详情')
+//            ->body(Admin::show(usedName::findOrFail($id), function (Show $show) {
+//
+//                $show->productName('ID');
+//                $show->goods('可拍卖', function ($goods) {
+//                    $UU = time() * 1000;
+//                    $goods->resource('/admin/goods');
+//                    $goods->model()->where('endTime', '>', $UU);
+//                    $goods->id();
+//                    // $goods->content()->limit(10);
+//                    // $goods->endTime();
+//                    $goods->endTime()->display(function ($endTime) {
+//                        $endTime = $endTime / 1000;
+//                        // return $endTime;
+//                        return date("Y-m-d h:i:sa", $endTime);
+//                    });
+//                    // $goods->updated_at();
+//                    $goods->disableExport();
+//
+//                    $goods->disableCreateButton();
+//                    $goods->actions(function ($actions) {
+//
+//                        // 去掉删除
+//                        $actions->disableDelete();
+//
+//                        // // 去掉编辑
+//                        $actions->disableEdit();
+//
+//                        // 去掉查看
+//                        $actions->disableView();
+//                        //添加订单
+//
+//                    });
+//                    $goods->filter(function ($filter) {
+//                        // $filter->gt('endTime', );
+//                        $filter->disableIdFilter();
+//
+//                    });
+//                    $goods->disableBatchActions();
+//                });
+//                $show->panel()
+//                    ->tools(function ($tools) {
+//                        $tools->disableEdit();
+//                        $tools->disableList();
+//                        $tools->disableDelete();
+//
+//                    });
+//
+//            }));
+//    }
+//    /**
+//     * Make a form builder.
+//     *
+//     * @return Form
+//     */
+//    // protected function form()
+//    // {
+//    //     $form = new Form(new usedName);
+//
+//    //     $form->display('id', 'ID');
+//
+//
+//    //     return $form;
+//    // }
+//    public function addoffer($id, content $content)
+//    {
+//        return $content
+//            ->header("添加订单")
+//            ->body(goods::form_edit()->edit($id));
+//    }
 
 }
